@@ -1,23 +1,31 @@
-
 <!DOCTYPE html>
 <html lang="de">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Fingerwerk by Esra</title>
+  <title>Fingerwerk – Esra Türkoglu</title>
   <style>
     body {
-      font-family: 'Arial', sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #fffaf9;
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(135deg, #fbe5ec, #fcebf1);
       color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header {
       text-align: center;
+      padding: 30px 20px 10px;
     }
+
     header img {
-      max-width: 300px;
-      margin-top: 30px;
+      max-width: 280px;
+      border-radius: 10px;
     }
+
     .button {
       display: inline-block;
       margin: 20px auto;
@@ -30,37 +38,41 @@
       font-size: 16px;
       transition: background-color 0.3s;
     }
+
     .button:hover {
       background-color: #d28f89;
     }
+
     .content {
       padding: 20px;
       max-width: 800px;
-      margin: auto;
+      text-align: center;
     }
+
     .contact {
       margin-top: 30px;
       font-size: 18px;
       line-height: 1.8;
     }
-    .instagram-feed {
-      margin-top: 40px;
-    }
-    footer {
-      margin-top: 50px;
-      font-size: 12px;
-      color: #888;
-    }
+
     a {
       color: #333;
       text-decoration: none;
     }
+
     a:hover {
       text-decoration: underline;
+    }
+
+    footer {
+      margin: 50px 0 20px;
+      font-size: 12px;
+      color: #888;
     }
   </style>
 </head>
 <body>
+
   <header>
     <img src="logo.jpeg" alt="Fingerwerk Logo" />
   </header>
@@ -68,20 +80,8 @@
   <div class="content">
     <a class="button" href="https://www.instagram.com/fingerwerk.kiel/" target="_blank">Folge uns auf Instagram</a>
 
-    <div class="instagram-feed">
-      <h2>Neueste Beiträge</h2>
-      <iframe 
-        src="https://snapwidget.com/embed/1059272" 
-        class="snapwidget-widget" 
-        allowtransparency="true" 
-        frameborder="0" 
-        scrolling="no" 
-        style="border:none; overflow:hidden; width:100%; height:400px;">
-      </iframe>
-    </div>
-
     <div class="contact">
-      <h3>Fingerwerk Esra Türkoglu</h3>
+      <h2>Fingerwerk Esra Türkoglu</h2>
       <p>
         <a href="https://maps.google.com/?q=Holzkoppelweg+33,+Haus+G50,+24118+Kiel" target="_blank">
           Holzkoppelweg 33 • Haus G50<br />
@@ -93,7 +93,6 @@
         Mobil: <a href="tel:+491733444556">+49 173 3 44 45 56</a><br />
         Email: <a href="mailto:esra@fingerwerk.de">esra@fingerwerk.de</a>
       </p>
-
       <p><strong>Um ein Termin zu vereinbaren wählen Sie eine der Kontaktmöglichkeiten aus.</strong></p>
     </div>
   </div>
@@ -101,5 +100,6 @@
   <footer>
     Webseite erstellt von Splash
   </footer>
+
 </body>
 </html>
